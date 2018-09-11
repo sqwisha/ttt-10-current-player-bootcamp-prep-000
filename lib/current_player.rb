@@ -1,8 +1,8 @@
 def current_player(board)
   if turn_count(board).even?
-    return "O"
-  else 
     return "X"
+  else 
+    return "O"
   end
 end
 
